@@ -1,0 +1,50 @@
+# --- ENVIRONNEMENT POETRY ---
+.venv/
+
+# --- NOTEBOOKS JUPYTER ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- FICHIERS PYTHON ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- LOGS / TEMP ---
+*.log
+*.tmp
+*.temp
+*.bak
+
+# --- FICHIERS OS / ÉDITEURS ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- CACHE PYTHON & OUTILS ---
+.cache/
+pytest_cache/
+htmlcov/
+.coverage
+
+# --- VENV GLOBAL (AU CAS OÙ) ---
+venv/
+env/
+ENV/
+
+# --- MLflow ---
+mlruns/
+
+# Modèles lourds
+models/
+!models/best_linear_regression.joblib
+
+
+# Données brutes / lourdes
+data/*.csv
+
+datasets/
+*.csv
+data/
