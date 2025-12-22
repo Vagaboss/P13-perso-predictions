@@ -37,9 +37,6 @@ ENV/
 # --- MLflow ---
 mlruns/
 
-# Modèles lourds
-models/
-!models/best_linear_regression.joblib
 
 
 # Données brutes / lourdes
