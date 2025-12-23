@@ -1,0 +1,2 @@
+{"ts_utc": "2025-12-23T12:26:57.807574+00:00", "inputs": {"wday": 1, "month": 1, "year": 2011, "is_weekend": 1, "is_event": 1, "sales_lag_7": 1000.0, "sales_rolling_mean_7": 1200.0}, "prediction_sales_t_plus_7": 6518.460869295356, "latency_ms": 5.314799998814124}
+{"ts_utc": "2025-12-23T12:27:08.897733+00:00", "inputs": {"wday": 1, "month": 1, "year": 2011, "is_weekend": 1, "is_event": 1, "sales_lag_7": 1000.0, "sales_rolling_mean_7": 1258.0}, "prediction_sales_t_plus_7": 6542.776329165438, "latency_ms": 1.4057000007596798}
